@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{AB31445D-0355-48FE-917E-F2240A5ACBF4}|Default">
   <MonoDevelop.Ide.ItemProperties.test1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="test1git Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test1/delegatetest/Bookstore.cs">
     <Files>
-      <File FileName="test1git Status" />
+      <File FileName="test1/explite/ExplicitTest.cs" Line="39" Column="57" />
+      <File FileName="test1/delegatetest/DelegateTest.cs" Line="13" Column="10" />
+      <File FileName="test1/delegatetest/Bookstore.cs" Line="21" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

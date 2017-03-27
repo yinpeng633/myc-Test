@@ -4,25 +4,25 @@ namespace test1.filearray
 {
     public class FileArrayTest
     {
-         static void Main(string[] args)
-         {
-             if (args.Length == 0) 
-             {
-                 Console.WriteLine("indexer <filename>");
-                 return;
-             }
+        //  static void Main(string[] args)
+        //  {
+        //      if (args.Length == 0) 
+        //      {
+        //          Console.WriteLine("indexer <filename>");
+        //          return;
+        //      }
 
-             SimpleFileByteArray file = new SimpleFileByteArray(args[0]);
-             long length = file.Length;
-             for (int i = 0; i < length/2; ++i) 
-             {
-                 byte t;
-                 t = file[i];
-                 file[i] = file[length - i - 1];
-                 file[length - i - 1] = t;
-             }
-             file.Close();
-         }
+        //      SimpleFileByteArray file = new SimpleFileByteArray(args[0]);
+        //      long length = file.Length;
+        //      for (int i = 0; i < length/2; ++i) 
+        //      {
+        //          byte t;
+        //          t = file[i];
+        //          file[i] = file[length - i - 1];
+        //          file[length - i - 1] = t;
+        //      }
+        //      file.Close();
+        //  }
     }
 
     public class SimpleFileByteArray

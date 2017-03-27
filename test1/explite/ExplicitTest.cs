@@ -3,19 +3,19 @@ namespace test1
 {
 	public class ExplicitTest
 	{
-		static void Main (string [] args)
-		{
-            RomanNumber roman;
-            roman = 10;
+		// static void Main (string [] args)
+		// {
+        //     RomanNumber roman;
+        //     roman = 10;
 
-			Console.WriteLine((int)roman);
+		// 	Console.WriteLine((int)roman);
 
-			Console.WriteLine(roman);
+		// 	Console.WriteLine(roman);
 
-			short s = (short)roman;
+		// 	short s = (short)roman;
 
-			Console.WriteLine(s);
-		}
+		// 	Console.WriteLine(s);
+		// }
 	}
 
 
@@ -35,7 +35,7 @@ namespace test1
             return new RomanNumber(value);
         }
 
-
+        //public static Complex operator +(Complex c1, Complex c2)  运算符重载
 		static public explicit operator int(RomanNumber roman)
         {
             return roman.value;

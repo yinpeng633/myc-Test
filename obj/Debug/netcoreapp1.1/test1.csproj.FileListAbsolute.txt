@@ -1,0 +1,5 @@
+/Users/dapeng/c#/test1git/bin/Debug/netcoreapp1.1/test1.deps.json
+/Users/dapeng/c#/test1git/bin/Debug/netcoreapp1.1/test1.runtimeconfig.json
+/Users/dapeng/c#/test1git/bin/Debug/netcoreapp1.1/test1.runtimeconfig.dev.json
+/Users/dapeng/c#/test1git/obj/Debug/netcoreapp1.1/test1.csprojResolveAssemblyReference.cache
+/Users/dapeng/c#/test1git/obj/Debug/netcoreapp1.1/test1.AssemblyInfo.cs
